@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.about-section > div {
+  max-width: 896px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-section h1 {
+  width: fit-content;
+  border-bottom: 4px solid black;
+  padding-bottom: 0.5rem;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.about-section > div > div {
+  margin-left: 4rem;
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+p {
+  margin-bottom: 1rem;
+}
+.circle {
+  width: 581px;
+  height: 508px;
+  background: linear-gradient(
+    37.59deg,
+    rgba(203, 56, 165, 0.441506) 35.14%,
+    rgba(42, 135, 213, 0.5) 67%
+  );
+  border-radius: 100%;
+
+  position: absolute;
+  bottom: -100px;
+  left: -200px;
+}
